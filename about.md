@@ -1,18 +1,50 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: article
+titles:
+  en: About
+  zh: 关于
+  zh-Hans: 关于
+  zh-Hant: 關於
+key: page-about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+TeXt is succinct Jekyll theme, Perfect for hosting your personal site, blog, documentation on GitHub or self-hosting on your own server.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+```javascript
+(() => console.log('Hello, World!'))();
+```
 
+## Features
 
-[jekyll-organization]: https://github.com/jekyll
+- Responsive
+- Paginate ([jekyll-paginate](https://github.com/jekyll/jekyll-paginate))
+- Table of contents
+- Tag
+- Search
+- Page views ([LeanCloud](https://leancloud.cn/))
+- Emoji ([Jemoji](https://github.com/jekyll/jemoji))
+- Comment ([Disqus](https://disqus.com/))
+- Google Analytics
+- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
+- Semantic HTML
+- Icon automation tool ([gulp-svg2png](https://www.npmjs.com/package/gulp-svg2png), [gulp-to-ico](https://www.npmjs.com/package/gulp-to-ico))
+- Color Theme
+- Mathematical formula ([MathJax](https://www.mathjax.org/))
+- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
+- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
+- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- Multi-language support(English, Simplified Chinese, Traditional Chinese)
+
+## Color Themes
+
+You can choose these 6 built-in color themes below:
+
+| `default` | `dark` | `forest` |
+| --- |  --- | --- |
+| ![default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png) | ![dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png) | ![forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png) |
+
+| `ocean` | `chocolate` | `orange` |
+| --- |  --- | --- |
+| ![ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png) | ![chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png) | ![orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png) |
