@@ -19,25 +19,25 @@
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
-title: Someone's blog
+title: Tao's Blog
 description: > # this means to ignore newlines until "Language & timezone"
   Someone's Blog
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   name: Someone
-  email: someone@somemail.com # your Email address e.g. someone@site.com
+  email: fss437000@163.com # your Email address e.g. someone@site.com
   facebook: # your Facebook username
   twitter: # your Twitter username
-  github: # your GitHub username
+  github: wanf425 # your GitHub username
   linkedin: # your Linkedin username
   googleplus: # your Google+ username
   weibo: # your Weibo username
@@ -165,3 +165,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  
+encoding: utf-8
