@@ -5,6 +5,7 @@ key: 20180619001
 tags: blockchain
 category: blog
 date: 2018-06-19 00:34:00
+comment: true
 ---
 
 > 不用敲代码，10分钟，不到40元，在以太坊上快速发行自己的代币。

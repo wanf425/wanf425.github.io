@@ -16,7 +16,7 @@
 
 ## => Site Settings
 ##############################
-text_color_theme: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
 title: Tao's Blog
@@ -94,7 +94,7 @@ sources: bootcdn # bootcdn (default), unpkg
 ##############################
 ## Disqus
 disqus:
-  shortname: # the Disqus shortname for the site
+  shortname: wanf425.disqus.com # the Disqus shortname for the site
 
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
