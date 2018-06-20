@@ -4,7 +4,8 @@ title: 以太坊快速发币教程
 key: A20180621001
 tags: blockchain programming
 category: blog
-date: 2018-06-21 00:00:00
+date: 2018-06-21 00:00:00 +08:00
+modify_date: 2017-06-21 00:00:00 +08:00
 ---
 
 > 不用敲代码，10分钟，不到40元，在以太坊上快速发行自己的代币。
