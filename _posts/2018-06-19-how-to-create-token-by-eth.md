@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 以太坊快速发币教程
-key: 20180619001
+key: A20180619001
 tags: blockchain
 category: blog
 date: 2018-06-19 00:34:00
