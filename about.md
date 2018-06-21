@@ -1,50 +1,22 @@
 ---
 layout: article
-titles:
-  en: About
-  zh: 关于
-  zh-Hans: 关于
-  zh-Hant: 關於
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
+## 关于我
 
-TeXt is succinct Jekyll theme, Perfect for hosting your personal site, blog, documentation on GitHub or self-hosting on your own server.
+大家好，我是王韬，欢迎来到我的博客。
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+我09年毕业，主要的工作方向是Java后端，坐标深圳，目前供职于顺丰科技。
 
-## Features
+平常比较宅，业余时间除了陪家人，就是敲敲代码，写写文章，研究与区块链相关的东西。
 
-- Responsive
-- Paginate ([jekyll-paginate](https://github.com/jekyll/jekyll-paginate))
-- Table of contents
-- Tag
-- Search
-- Page views ([LeanCloud](https://leancloud.cn/))
-- Emoji ([Jemoji](https://github.com/jekyll/jemoji))
-- Comment ([Disqus](https://disqus.com/))
-- Google Analytics
-- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
-- Semantic HTML
-- Icon automation tool ([gulp-svg2png](https://www.npmjs.com/package/gulp-svg2png), [gulp-to-ico](https://www.npmjs.com/package/gulp-to-ico))
-- Color Theme
-- Mathematical formula ([MathJax](https://www.mathjax.org/))
-- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
-- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
-- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
-- Multi-language support(English, Simplified Chinese, Traditional Chinese)
+如果你有问题想要沟通，欢迎给我留言，或者通过下面的方式联系我。
 
-## Color Themes
+## 联系方式
 
-You can choose these 6 built-in color themes below:
+邮箱：fss437000@163.com
+微信公众号：不爱喝咖啡
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png) | ![dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png) | ![forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png) |
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png) | ![chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png) | ![orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png) |
+
