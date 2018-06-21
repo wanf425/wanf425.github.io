@@ -1,5 +1,11 @@
 header:
   - titles:
+      en:       Home
+      zh:       主页
+      zh-Hans:  主页
+      zh-Hant:  主頁
+    url:        /index.html
+  - titles:
       en:       Archive
       zh:       归档
       zh-Hans:  归档
@@ -11,3 +17,9 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /about.html
+  - titles:
+      en:       RSS
+      zh:       RSS
+      zh-Hans:  RSS
+      zh-Hant:  RSS
+    url:        /feed.xml
