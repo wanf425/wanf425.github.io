@@ -2,7 +2,7 @@
 layout: article
 title: 以太坊快速发币教程
 key: A20180621001
-tags: blockchain programming
+tags: Blockchain Programming
 category: blog
 date: 2018-06-21 00:00:00 +08:00
 modify_date: 2017-06-21 00:00:00 +08:00
