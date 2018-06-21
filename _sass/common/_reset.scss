@@ -179,3 +179,15 @@ input {
 .mermaidTooltip {
   display: none;
 }
+
+a:visited svg path {
+    fill: #fff;
+}
+
+a svg path {
+    fill: #fff;
+}
+
+a:link svg path {
+    fill: #fff;
+}

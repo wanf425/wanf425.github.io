@@ -70,6 +70,7 @@ layout: base
               {%- endif-%}
 
               {%- include article-info.html -%}
+              {%- include share.html -%}
               <div class="js-article-content">{{ content }}</div>
              
               {%- if jekyll.environment != "development" and page.comment != false -%}
