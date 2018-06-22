@@ -1,75 +1,24 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
+## 关于我
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-details.png)
+大家好，我是王韬，欢迎来到我的博客。
 
-TeXt is a Jekyll theme for personal site, blog, project, documentation and so on. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+我09年毕业，主要的工作方向是Java后端，坐标深圳，目前供职于顺丰科技。
 
-[中文文档](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)
+平常比较宅，业余时间除了陪家人，就是敲敲代码，写写文章，研究与区块链相关的东西。
 
-## Features
+如果你有问题想要沟通，欢迎给我留言，或者通过下面的方式联系我。
 
-- Responsive
-- Paginate ([jekyll-paginate](https://github.com/jekyll/jekyll-paginate))
-- Table of contents
-- Tag
-- Search
-- Page views ([LeanCloud](https://leancloud.cn/))
-- Emoji ([Jemoji](https://github.com/jekyll/jemoji))
-- Comment ([Disqus](https://disqus.com/))
-- Google Analytics
-- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
-- Semantic HTML
-- Color Theme
-- Mathematical formula ([MathJax](https://www.mathjax.org/))
-- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
-- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
-- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
-- Multi-language support(English, Simplified Chinese, Traditional Chinese)
+## 联系方式
 
-## Color Themes
+邮箱：fss437000@163.com
 
-You can choose these 6 built-in color themes below:
+微信公众号：不爱喝咖啡
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png) | ![dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png) | ![forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png) |
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png) | ![chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png) | ![orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png) |
 
-## Documentation
 
-### Start
 
-- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
 
-### Customization
 
-- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-
-### Content
-
-- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
-- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
-
-## Demo Pages
-
-| Name | Description |
-| --- | --- |
-| [Home](https://tianqi.name/jekyll-TeXt-theme/) | Home page with posts list |
-| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | You can filter tags and search here |
-
-## License
-
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
