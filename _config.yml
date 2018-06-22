@@ -95,7 +95,7 @@ sources: bootcdn # bootcdn (default), unpkg
 ## Disqus
 disqus:
   shortname: wanf425 # the Disqus shortname for the site
-
+  
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
