@@ -1,6 +1,6 @@
 {%- if jekyll.environment != "development" -%}
 
-  {%- if site.livere.uid -%}
+  {%- if site.disqus.shortname -%}
     {%- include comment-providers/livere.html -%}
   {%- elseif site.disqus.shortname -%}
     {%- include comment-providers/disqus.html -%}
