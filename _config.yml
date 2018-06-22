@@ -96,6 +96,10 @@ sources: bootcdn # bootcdn (default), unpkg
 disqus:
   shortname: wanf425 # the Disqus shortname for the site
   
+## Livere
+livere:
+  uid: MTAyMC8zNzUzOC8xNDA3MA== # the Disqus shortname for the site
+  
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
