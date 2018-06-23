@@ -1,6 +1,6 @@
 ---
 layout: article
-key: page-about
+key: A20180623001
 title: 关于
 ---
 
