@@ -2,7 +2,7 @@
 layout: article
 title: 为何要自建博客
 key: A20180620001
-tags: Writing Programming
+tags: 写作 编程
 category: blog
 date: 2018-06-20 00:00:00 +08:00
 modify_date: 2017-06-20 00:00:00 +08:00

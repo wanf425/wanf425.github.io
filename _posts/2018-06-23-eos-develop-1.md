@@ -2,7 +2,7 @@
 layout: article
 title: EOSIO开发（一）使用Docker构建本地环境
 key: A20180623001
-tags: Writing Programming
+tags: 区块链 编程
 category: blog
 date: 2018-06-23 00:00:00 +08:00
 modify_date: 2017-06-23 00:00:00 +08:00
