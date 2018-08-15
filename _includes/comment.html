@@ -1,10 +1,10 @@
-{%- if jekyll.environment != "development" -%}
+{%- if jekyll.environment -%}
 
-  {%- if site.livere.uid -%}
+  {%- if site.provider == "livere" -%}
     {%- include comment-providers/livere.html -%}
-  {%- elsif site.disqus.shortname -%}
+  {%- elsif site.provider == "disqus" -%}
     {%- include comment-providers/disqus.html -%}
-  {%- elsif site.gitalk.clientID and site.gitalk.clientSecret and site.gitalk.repository and site.gitalk.owner and site.gitalk.admin -%}
+  {%- elsif site.provider == "gitalk" -%}
     {%- include comment-providers/gitalk.html -%}
   {%- endif -%}
 

@@ -17,7 +17,7 @@
 ## => Site Settings
 ##############################
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-url: # the base hostname & protocol for your site e.g. https://www.someone.com
+url: https://www.taowong.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
 title: Tao's Blog
 description: > # this means to ignore newlines until "Language & timezone"
@@ -92,6 +92,8 @@ sources: bootcdn # bootcdn (default), unpkg
 
 ## => Comments
 ##############################
+provider: gitalk
+
 ## Disqus
 disqus:
   shortname: wanf425 # the Disqus shortname for the site
@@ -103,11 +105,11 @@ livere:
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  clientID: # GitHub Application Client ID
-  clientSecret: # GitHub Application Client Secret
-  repository: # GitHub repo
-  owner: # GitHub repo owner
-  admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+  clientID: f0a6283c34898d49dea7 # GitHub Application Client ID
+  clientSecret: 60b651664400f6f4b27aa6268e20da48f8125ede # GitHub Application Client Secret
+  repository: wanf425.github.io # GitHub repo
+  owner: wanf425 # GitHub repo owner
+  admin: wanf425 # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
     # - your GitHub Id
 
 

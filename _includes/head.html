@@ -1,11 +1,26 @@
 <meta name="google-site-verification" content="U11JjuuayaAM_HIgvEnB8DHacxx1CUASVpmLY7lTFHY" />
-<meta name="baidu-site-verification" content="AUG6AkSWPn" />
+<meta name="baidu-site-verification" content="R2wSMkc4nj" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 {%- include snippets/page-title.html -%}
 <title>{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
+
+<!-- keywords & description -->
+{%if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{%endif %}
 <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
+
+<!-- Open Graph protocol -->
+{%- assign href = __return -%}
+<meta property="og:title" content="{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}">
+<meta property="og:site_name" content="Tao's Blog">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{%- include snippets/page-url.html -%}">
+<meta property="og:description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
+
+
 <link rel="canonical" href="{%- include snippets/page-url.html -%}">
 {%- assign __path = '/feed.xml' -%}
 {%- include snippets/prepend-baseurl.html -%}

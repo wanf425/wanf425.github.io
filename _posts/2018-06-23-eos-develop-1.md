@@ -2,10 +2,10 @@
 layout: article
 title: EOSIO开发（一）使用Docker构建本地环境
 key: A20180623001
-tags: 区块链 编程
+tags: 编程 区块链 EOS Docker
 category: blog
-date: 2018-06-23 00:00:00 +08:00
-modify_date: 2017-06-23 00:00:00 +08:00
+date: 2018-06-23 12:00:00 +08:00
+modify_date: 2017-06-23 12:00:00 +08:00
 ---
 
 ## 前言
@@ -195,5 +195,22 @@ cleos get account inita
 
 ![0407006](http://ot6uqhsry.bkt.clouddn.com/0407006.png)
 
+## 系列文章
+
+[EOSIO开发（一）使用Docker构建本地环境](https://www.taowong.com/blog/2018/06/23/eos-develop-1.html)
+
+[EOSIO开发（二）运行合约样例](https://www.taowong.com/blog/2018/06/27/eos-develop-2.html)
+
+[EOSIO开发（三）钱包、账户与账户权限之概念篇](https://www.taowong.com/blog/2018/06/28/eos-develop-3.html)
+
+[EOSIO开发（四）- nodeos、keosd与cleos](https://www.taowong.com/blog/2018/06/28/eos-develop-4.html)
+
+[EOSIO开发（五）- 钱包之实战篇](https://www.taowong.com/blog/2018/06/28/eos-develop-5.html)
+
+[EOSIO开发（六）- 账户之实战篇](https://www.taowong.com/blog/2018/06/28/eos-develop-6.html)
+
+[EOSIO开发（七）- 使用CLion查看EOS代码](https://www.taowong.com/blog/2018/06/28/eos-develop-7.html)
+
+[EOSIO开发（八）- 智能合约基础概念](https://www.taowong.com/blog/2018/06/28/eos-develop-8.html)
 
 
