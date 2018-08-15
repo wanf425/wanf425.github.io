@@ -26,6 +26,9 @@
       .douban-button {
         @include button-colors($text-color-1, $douban-color);
       }
+      .csdn-button {
+        @include button-colors($text-color-1, $csdn-color);
+      }
     }
   }
 }
