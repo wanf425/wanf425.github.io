@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 常见链表操作-单链表反转
+title: 常见链表操作-单链表反转(JAVA实现)
 key: A20181007001
 tags: 编程 算法 数据结构
 category: blog
@@ -187,9 +187,8 @@ node.next.next = node;
 
 单链表反转看上去简单，但是在没有准备的情况想要写对也不容易。如果肯花时间，抽一两个小时来写一写代码，相信大家都能掌握。
 
-本文完整代码地址：
+完整代码请参考：
 https://github.com/wanf425/Algorithm/blob/master/src/com/wt/adt/LinkADT.java
 
 下一篇文章，我会继续总结如何实现**链表中环的检测**。
-
 
