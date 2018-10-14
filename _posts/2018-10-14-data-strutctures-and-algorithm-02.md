@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 常见链表操作-链表中环的检测（JAVA实现）
-key: A20181007001
+key: A20181014001
 tags: 编程 算法 数据结构
 category: blog
 date: 2018-10-14 16:51:00 +08:00
