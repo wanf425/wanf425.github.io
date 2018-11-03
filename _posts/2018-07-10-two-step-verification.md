@@ -48,7 +48,7 @@ modify_date: 2017-07-10 10:11:00 +08:00
 
 **第一步，下载一个客户端**。Andriod平台基本用Google Authenticator，IOS平台除了Google Authenticator，还有Tofu、Authy、SAASPASS等等多种选择
 
-![支持两步验证的客户端](http://ot6uqhsry.bkt.clouddn.com/1014002.png)
+![支持两步验证的客户端](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/1014002.png)
 
 **第二步，在服务端（支持两步验证的网站）申请开启两步验证**。此时服务端会生成一个类似于[DPI45HKISEXU6HG7]的密钥K，同时生成一个二维码，将密钥K通过二维码展示。
 
@@ -62,7 +62,7 @@ S = Truncate(HMAC-SHA-1(K,T))
 
 当时间T不同时，生成的S也不一样。这个T如果变化太快(例如1秒变动一次)，用户会来不及输入密码。如果变化太慢(例如一个月变动一次)，会存在被人暴力破解的风险。通用的做法是30秒变化一次，既保证用户有足够的时间输入密码，又降低被破解的风险。
 
-![6位验证码](http://ot6uqhsry.bkt.clouddn.com/1014001.png)
+![6位验证码](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/1014001.png)
 
 
 **第五步，服务端校验密码S**。服务端使用相同的算法，校验客户端上传的密码S是否正确。

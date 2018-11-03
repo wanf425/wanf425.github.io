@@ -14,7 +14,7 @@ modify_date: 2017-07-27 21:03:00 +08:00
 
 <!--more-->
 
-![2](http://ot6uqhsry.bkt.clouddn.com/20180727001.png)
+![2](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180727001.png)
 
 这个体系按照请求接入，由外到内的顺序，将整体架构分为接入层、网关层、业务服务层、支撑服务层、平台服务层和基础设施层六层。
 

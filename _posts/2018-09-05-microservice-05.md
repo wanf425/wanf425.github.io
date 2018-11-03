@@ -22,7 +22,7 @@ modify_date: 2018-09-05 14:19:00 +08:00
 
 ## 独立LB模式
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180904001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180904001.png)
 
 这是早期采用比较广泛的一种模式，具体流程如下：
 
@@ -34,7 +34,7 @@ modify_date: 2018-09-05 14:19:00 +08:00
 
 ## 进程内LB模式
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180904002.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180904002.png)
 
 进程内LB模式就是把LB迁移到应用进程内，同时增加了注册中心，整体流程如下:
 
@@ -46,7 +46,7 @@ modify_date: 2018-09-05 14:19:00 +08:00
 
 ## 进程外LB模式
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180904003.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180904003.png)
 
 进程外LB模式与进程内LB模式唯一的区别就是将LB放到独立的进程中，与应用进程分开，在每个主机上同时部署应用与LB，一般是放在一个容器中。
 

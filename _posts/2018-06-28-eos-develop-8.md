@@ -1,7 +1,7 @@
 ---
 layout: article
 title: EOSIO开发（八）- 智能合约基础概念
-key: A20180628006
+key: A20180628006F
 tags: 编程 区块链 EOS  智能合约
 category: blog
 date: 2018-06-28 18:36:00 +08:00
@@ -109,7 +109,7 @@ Deferred可以被理解为延时交互模式，TransactionA中的部分Action没
 #### Inline模式
 在Inline模式下，所有的Action是被实时顺序调用的，整个执行过程的时序图如下所示。
 
-![example-transaction-flow-diagra](http://ot6uqhsry.bkt.clouddn.com/example-transaction-flow-diagram.png)
+![example-transaction-flow-diagra](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/example-transaction-flow-diagram.png)
 
 图中```employer::runpayroll```发起了发工资的请求，
 而```employer::dootherstuff```是雇主执行的其它操作，我们可以不用理会它。
@@ -128,7 +128,7 @@ Deferred可以被理解为延时交互模式，TransactionA中的部分Action没
 
 还是同样的场景，假设```bank::doacctpolicy``` 不是以inline模式调用，而是以deferred模式调用，时序图会改成下面这个样子。
 
-![example-deferred-transaction-flo](http://ot6uqhsry.bkt.clouddn.com/example-deferred-transaction-flow.png)
+![example-deferred-transaction-flo](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/example-deferred-transaction-flow.png)
 
 从时序图来看，主要的区别：
 1. ```bank::doacctpolicy``` action并没有立即被执行，而是放到了一个队列（queue）中。

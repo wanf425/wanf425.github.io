@@ -17,9 +17,9 @@ modify_date: 2017-07-07 18:53:00 +08:00
 > **本地缓存**：缓存数据保存在单个应用服务器中，各个应用服务器之间的缓存数据是独立的。
 > **集中式缓存**：缓存数据保存在专门的缓存服务器中，应用服务器通过网络请求从缓存服务器获取缓存数据。
 
-![本地缓存](http://ot6uqhsry.bkt.clouddn.com/20180128006.png)
+![本地缓存](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128006.png)
 
-![集中式缓存](http://ot6uqhsry.bkt.clouddn.com/20180128005.png)
+![集中式缓存](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128005.png)
 
 本地缓存与集中式缓存最大的区别是数据读取性能以及数据一致性。
 
@@ -47,9 +47,9 @@ Ehcache是一个用Java实现的简单、高速、线程安全的缓存管理类
 
 1. **快速**。Ehcache的线程机制是为大型高并发系统设计的，这一点使得使其在性能上具备一定的优势，而且在过去众多的测试已经表明，Ehcahce是最快的Java缓存之一。
 2. **简单**。要使用Ehcache只需要在配置文件中进行简单的配置即可。一个典型的Ehcache配置文件内容如下：
-   ![Ehcache配置](http://ot6uqhsry.bkt.clouddn.com/20180128001.png)
+   ![Ehcache配置](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128001.png)
 如果结合spring使用，配置项更少:
-![spring中Ehached额配置](http://ot6uqhsry.bkt.clouddn.com/20180128002.png)
+![spring中Ehached额配置](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128002.png)
 
 3. **提供多种缓存策略**。Ehcache支持LRU（最近最少使用）、LFU（最少被使用）和FIFO（先进先出）三种缓存策略，程序员可以根据系统需求自主选择不同的缓存策略。
 4. **支持两级数据缓存**。数据可以同时缓存在内存和磁盘中，这样一方面扩充了缓存容量，可以以GB为单位缓存数据。另一方面也能够支持缓存数据持久化，在虚拟机重启时从磁盘读取缓存数据到内存，解决虚拟机重启/停机后缓存数据丢失的问题。
@@ -58,7 +58,7 @@ Ehcache是一个用Java实现的简单、高速、线程安全的缓存管理类
 ## Ehcache架构
 
 Ehcache架构图如下，总共分为四个模块。
-![Ehcache架构](http://ot6uqhsry.bkt.clouddn.com/20180128003.png)
+![Ehcache架构](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128003.png)
 
 1. **Cache Replicaitong:**负责缓存同步的实现，包括TerraCotta、RMI、JMS和JGroup四种方式。
 2. **In-Process APIS:**提供对外常用的API，包括JRuby、Hibernate、JMX、SOAP API、Cache Server五种API。
@@ -77,7 +77,7 @@ Ehcache架构图如下，总共分为四个模块。
 那么在什么时候使用Ehcache比较好呢？一种比较常见的做法就是将Ehcache作为集中式缓存（Memcached/Redis）的二级本地缓存。
 
 项目中读取缓存的流程如下：
-![缓存读取流程](http://ot6uqhsry.bkt.clouddn.com/20180128004.png)
+![缓存读取流程](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180128004.png)
 
 这个流程存在一个风险，如果集中缓存系统因为某些原因宕机，造成服务无法访问，那么将会有大量请求直接穿透到数据库，对数据库造成巨大的压力。
 

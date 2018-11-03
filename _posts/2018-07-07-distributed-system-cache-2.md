@@ -65,7 +65,7 @@ modify_date: 2017-07-07 18:43:00 +08:00
 
 下表为我们展示了单体架构与分布式架构的优缺点比较。
 
-![20180121001](http://ot6uqhsry.bkt.clouddn.com/20180121001.png)
+![20180121001](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180121001.png)
 
 ## 总结
 

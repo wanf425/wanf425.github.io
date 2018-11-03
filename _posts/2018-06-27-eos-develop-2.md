@@ -58,7 +58,7 @@ cleos wallet create
 ```
 
 创建成功后，会生成一个随机密码。
-![20180413004](http://ot6uqhsry.bkt.clouddn.com/20180413004.png)
+![20180413004](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413004.png)
 
 ### 加载Bios合约
 
@@ -79,10 +79,10 @@ cleos create key # ActiveKey
 这两次命令将生成两组private key和public key，分别对应OwnerKey和ActiveKey。
 
 OwnerKey
-![20180413005](http://ot6uqhsry.bkt.clouddn.com/20180413005.png)
+![20180413005](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413005.png)
 
 ActiveKey
-![20180413006](http://ot6uqhsry.bkt.clouddn.com/20180413006.png)
+![20180413006](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413006.png)
 
 分别将两组private key导入钱包
 
@@ -91,7 +91,7 @@ cleos wallet import <private-OwnerKey>
 cleos wallet import <private-ActiveKey>
 ```
 
-![20180413007](http://ot6uqhsry.bkt.clouddn.com/20180413007.png)
+![20180413007](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413007.png)
 
 
 通过 `cleos create account` 命令创建 `currency` 账户，并由`eosio` 账户为其授权。
@@ -100,7 +100,7 @@ cleos wallet import <private-ActiveKey>
 cleos create account eosio currency \<public-OwnerKey> \<public-ActiveKey> 
 ```
 
-![20180413008](http://ot6uqhsry.bkt.clouddn.com/20180413008.png)
+![20180413008](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413008.png)
 
 
 验证currency账户是否创建成功。
@@ -110,7 +110,7 @@ cleos get account currency
 ```
 
 看到下面的账户信息，则说明创建成功。
-![20180413009](http://ot6uqhsry.bkt.clouddn.com/20180413009.png)
+![20180413009](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180413009.png)
 
 
 ### 上传currency账户到区块链
@@ -123,7 +123,7 @@ cleos get code currency
 
 如果返回hash code都为0，则说明账户不存在
 
-![屏幕快照 2018-04-14 上午11.00.47](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.00.47.png)
+![屏幕快照 2018-04-14 上午11.00.47](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.00.47.png)
 
 
 上传currency账户
@@ -132,7 +132,7 @@ cleos get code currency
 cleos set contract currency contracts/currency
 ```
 
-![屏幕快照 2018-04-14 上午11.01.16](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.01.16.png)
+![屏幕快照 2018-04-14 上午11.01.16](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.01.16.png)
 
 再次验证currency账户是否已经存在
 
@@ -141,7 +141,7 @@ cleos get code currency
 ```
 
 hash code不为0，上传成功。
-![屏幕快照 2018-04-14 上午11.01.24](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.01.24.png)
+![屏幕快照 2018-04-14 上午11.01.24](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.01.24.png)
 
 执行currency合约的create action与issue action，
 
@@ -157,7 +157,7 @@ cleos get table currency currency accounts
 ```
 
 可以看到balance的值为1000.0000 CUR，初始化成功。
-![屏幕快照 2018-04-14 上午11.03.12](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.03.12.png)
+![屏幕快照 2018-04-14 上午11.03.12](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.03.12.png)
 
 ### 执行智能合约
 
@@ -171,7 +171,7 @@ cleos get table currency eosio accounts
 ```
 
 currency账户的余额(balance)为1000.0000 CUR，而eosio账户没有余额。
-![屏幕快照 2018-04-14 上午11.06.34](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.06.34.png)
+![屏幕快照 2018-04-14 上午11.06.34](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.06.34.png)
 
 开始转账。
 
@@ -181,7 +181,7 @@ cleos push action currency transfer '{"from":"currency","to":"eosio","quantity":
 
 转账完成后，再次查询余额，currency账户是980，eosio账户则是20，转账成功。
 
-![屏幕快照 2018-04-14 上午11.08.07](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-14 上午11.08.07.png)
+![屏幕快照 2018-04-14 上午11.08.07](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-14 上午11.08.07.png)
 
 至此，整个流程结束。
 

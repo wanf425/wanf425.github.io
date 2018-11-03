@@ -89,7 +89,7 @@ modify_date: 2017-06-23 12:00:00 +08:00
 ## 构建失败
 
 正当我以为构建会很顺利的时候，命令行上出现一条错误信息：
-![0406001](http://ot6uqhsry.bkt.clouddn.com/0406001.png)
+![0406001](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0406001.png)
 
 在执行"COPY --from=builder /eos/Docker/config.ini /eos/genesis.json /" 语句时出错，eos/genesis.json文件不存在。
 
@@ -101,11 +101,11 @@ modify_date: 2017-06-23 12:00:00 +08:00
 
 我又另外尝试了几个方法，仍然无法生成正确的镜像，无奈之下，我去GitHub上提交了一个Bug，看看官方开发人员怎么说。
 
-![0406002](http://ot6uqhsry.bkt.clouddn.com/0406002.png)
+![0406002](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0406002.png)
 
 然并卵，只有两个同病相怜的小伙伴说跟我遇到了一样的问题，官方开发人员并没有答复。
 
-![0406003](http://ot6uqhsry.bkt.clouddn.com/0406003.png)
+![0406003](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0406003.png)
 
 生成不了正确的镜像，难道我的EOS开发之旅要就此夭折？
 
@@ -124,12 +124,12 @@ modify_date: 2017-06-23 12:00:00 +08:00
 **1.删除本地异常的eosio/eos镜像**
 >docker rmi e7bc2acf31bf
 
-![0407001](http://ot6uqhsry.bkt.clouddn.com/0407001.png)
+![0407001](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407001.png)
 
 **2.下载eosio/eos镜像**
 >docker pull eosio/eos
 
-![0407002](http://ot6uqhsry.bkt.clouddn.com/0407002.png)
+![0407002](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407002.png)
 还真让我下载到了。
 
 ## 环境验证
@@ -142,14 +142,14 @@ modify_date: 2017-06-23 12:00:00 +08:00
   
 > docker run --name nodeos -p 8888:8888 -p 9876:9876 -t eosio/eos nodeosd.sh arg1 arg2
    
-![0407003](http://ot6uqhsry.bkt.clouddn.com/0407003.png)
+![0407003](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407003.png)
 启动成功
 
 **2.验证nodeos节点是否可用**
    
 > curl http://127.0.0.1:8888/v1/chain/get_info
 
-![0407004](http://ot6uqhsry.bkt.clouddn.com/0407004.png)
+![0407004](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407004.png)
 验证通过
 
 **3.同时启动nodeos和kesod节点**
@@ -158,7 +158,7 @@ modify_date: 2017-06-23 12:00:00 +08:00
 > docker volume create --name=keosd-data-volume
 > docker-compose up -d
 
-![0407005](http://ot6uqhsry.bkt.clouddn.com/0407005.png)
+![0407005](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407005.png)
 
 这一步要注意几点：
 
@@ -172,7 +172,7 @@ modify_date: 2017-06-23 12:00:00 +08:00
 cleos get info
 cleos get account inita
 
-![0407007](http://ot6uqhsry.bkt.clouddn.com/0407007.png)
+![0407007](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407007.png)
 
 注意head_block_num的值时10239，在前面**验证nodeos节点是否可用**时，返回的head_block_num是711，这说明nodeos节点已经在自动生成区块了。
 
@@ -193,7 +193,7 @@ cleos get account inita
 
 今天中午在GitHub看到昨天提交的BUG已经Close，官方开发人员的回复是：已经删除genesis.json文件。我还没有测试，希望这次修改之后不会再有新的问题。
 
-![0407006](http://ot6uqhsry.bkt.clouddn.com/0407006.png)
+![0407006](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/0407006.png)
 
 ## 系列文章
 

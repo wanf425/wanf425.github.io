@@ -28,7 +28,7 @@ modify_date: 2018-08-07 11:49:00 +08:00
 
 下面我来对传统组织架构与微服务组织架构进行详细说明，下图展示了两者的区别。
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180806001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180806001.png)
 
 ### 职能型组织架构
 

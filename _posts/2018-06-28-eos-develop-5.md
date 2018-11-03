@@ -28,19 +28,19 @@ cd /path_to_eos/build/programs/cleos # 进入cleos编译目录
 ```
 
 与钱包相关的操作全部在 ```cleos wallet``` 命令中，使用介绍如下：
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.14.40.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.14.40.png)
 
 ## 创建钱包
 
 通过```cleos wallet create```命令创建钱包，创建成功后将会看到下面的信息：
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.16.12.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.16.12.png)
 
 创建了一个名称为"default"的钱包，并且钱包的密码是PW5KX8my1cqU38eZW1PhXUADLgjUxyqBv7wTYz3WDJg5mAnREyuNb。这个密码一定要好好保存，因为它是解锁钱包的唯一凭证。
 
 如果想要创建一个自定义名称的钱包，可以使用```cleos wallet create -n```命令。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.33.10.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.33.10.png)
 
 在上图中，创建了一个名称为testwallet的钱包。
 
@@ -50,21 +50,21 @@ cd /path_to_eos/build/programs/cleos # 进入cleos编译目录
 
 每当我们创建一个钱包时，EOSIO会在本地生成生成一个钱包文件，保存在```~/eosio-wallet```目录下。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.41.11.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.41.11.png)
 
 进入目录之后可以看到dfault.wallet和testwallet.wallet文件，分别对应刚刚生成的两个钱包。
 
 打开一个文件看看，里面保存的是一些加密字符串。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.43.56.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.43.56.png)
 
 我们也可以通过```cleos wallet list```命令查询钱包信息。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.45.04.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.45.04.png)
 
 查询结果显示目前有default和testwallet两个钱包，注意钱包名称后面的 * 号，它表示这两个钱包目前都是解锁(unlock)状态，锁定状态的钱包后面没有 * 号。
 
 例如，锁定testwallet钱包后，查询钱包信息。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.48.34.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.48.34.png)
 
 ## 钱包状态转换
 
@@ -72,7 +72,7 @@ cd /path_to_eos/build/programs/cleos # 进入cleos编译目录
 
 ### 锁定钱包
 前面的章节已经为大家展示了通过```cleos wallet lock -n 钱包名```命令锁定钱包，如果想锁定default钱包，可以不要 -n 参数。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午4.48.34.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午4.48.34.png)
 
 锁定状态下的钱包，将不能执行任何与该钱包相关的操作，也不能使用钱包中保存的密钥。例如，保存私钥，对交易签名等。
 
@@ -81,28 +81,28 @@ cd /path_to_eos/build/programs/cleos # 进入cleos编译目录
 ### 解锁钱包
 通过```cleos wallet unlock -n 钱包名```命令解锁钱包，解锁时需要输入钱包密码。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午5.02.10.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午5.02.10.png)
 
 ### 关闭/打开钱包
 
 当客户端keosd关闭之后，钱包也会进入关闭(close)状态，重启keosd后，需要通过```cleos wallet open```命令重新打开钱包。
 
 重启keosd后，查询钱包信息。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午5.06.25.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午5.06.25.png)
 
 查询不到任何钱包信息，说明此时所有钱包都是close状态。
 
 使用```cleos wallet open```打开default钱包。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午5.08.04.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午5.08.04.png)
 
 打开后的钱包处于锁定状态，如果想要使用钱包，还需要做解锁操作。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午5.09.28.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午5.09.28.png)
 
 ### 状态转换总结
 
 通过下面的钱包状态转换图，我们可以更好的理解钱包状态之间的关系。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午5.44.04.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午5.44.04.png)
 
 
 ## 导入密钥
@@ -111,14 +111,14 @@ cd /path_to_eos/build/programs/cleos # 进入cleos编译目录
 
 首先，使用```cleos create key```命令生成公钥和私钥。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午7.04.49.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午7.04.49.png)
 
 通过```cleos wallet import ${private_key}```命令导入私钥，在导入私钥时，钱包会自动根据私钥得到公钥，因此实际上钱包是同时保存了私钥和公钥。
 
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午7.06.31.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午7.06.31.png)
 
 最后，通过```cleos wallet keys```命令查看已导入的密钥。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-01 下午7.07.53.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-01 下午7.07.53.png)
 
 ## 系列文章
 

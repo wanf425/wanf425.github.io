@@ -21,7 +21,7 @@ modify_date: 2017-06-28 18:34:00 +08:00
 <!--more-->
 
 *myaccount account authorities*
-![屏幕快照 2018-05-05 下午12.44.15](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-05 下午12.44.15.png)
+![屏幕快照 2018-05-05 下午12.44.15](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-05 下午12.44.15.png)
 注：ac1、ac2是另外两个账户。
 
 如果对账户权限的概念不了解，请翻阅：
@@ -84,7 +84,7 @@ cleos -u http://192.168.1.101:8888 create account eosio myaccount <public-key> <
 ```
 
 返回结果
-![屏幕快照 2018-05-05 上午11.38.18](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-05 上午11.38.18.png)
+![屏幕快照 2018-05-05 上午11.38.18](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-05 上午11.38.18.png)
 
 注意结果中的```eosio <= eosio::newaccount {...}```，这一段的意思是执行了通过```eosio```账户部署的```eosio```合约中的```newaccount``` action，参数是```{...}```。
 
@@ -138,7 +138,7 @@ cleos -u http://192.168.1.101:8888 get account myaccount
 ```
 
 可以看到myaccount账户在被创建后，默认分配了active和owner两个权限。
-![屏幕快照 2018-05-05 下午12.16.03](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-05 下午12.16.03.png)
+![屏幕快照 2018-05-05 下午12.16.03](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-05 下午12.16.03.png)
 
 还记得文章开头的目标么，接下来我们要创建一个自定义权限cutome，以及修改active权限。
 
@@ -155,7 +155,7 @@ cleos -u http://192.168.1.101:8888 get account myaccount
 ```
 
 成功的添加了custom权限。
-![屏幕快照 2018-05-05 下午12.37.27](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-05 下午12.37.27.png)
+![屏幕快照 2018-05-05 下午12.37.27](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-05 下午12.37.27.png)
 
 修改active权限
 
@@ -164,7 +164,7 @@ cleos -u http://192.168.1.101:8888 set account permission myaccount active '{"th
 ```
 
 查看账户信息，active权限下添加了一个权限所有者ac1。
-![屏幕快照 2018-05-05 下午12.40.09](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-05 下午12.40.09.png)
+![屏幕快照 2018-05-05 下午12.40.09](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-05 下午12.40.09.png)
 
 至此，目标顺利达成~
 

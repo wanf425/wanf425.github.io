@@ -12,7 +12,7 @@ modify_date: 2018-10-14 16:51:00 +08:00
 
 如何检测一个单链表中是否有环，例如下图的例子。
 
-![20181013004](http://ot6uqhsry.bkt.clouddn.com/20181013004.png)
+![20181013004](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20181013004.png)
 
 <!--more-->
 
@@ -29,7 +29,7 @@ P2是快指针，一次遍历两个节点。
 
 因此，只要发现P2和P1相遇了，就可以判定链表中存在环。
 
-![20181013003](http://ot6uqhsry.bkt.clouddn.com/20181013003.png)
+![20181013003](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20181013003.png)
 
 #### 实现代码
 

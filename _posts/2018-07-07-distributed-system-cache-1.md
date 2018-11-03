@@ -74,7 +74,7 @@ modify_date: 2017-07-07 18:33:00 +08:00
 
 ## 无处不在的缓存
 如果用最简单的架构来描述互联网系统，它会是客户端 -> 代理服务器 -> 服务端 的三层结构。
-![jiagou](http://ot6uqhsry.bkt.clouddn.com/jiagou.png)
+![jiagou](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/jiagou.png)
 
 为了提高系统性能，程序猿们想尽了各种办法，在这三层结构中使用了各式各样的缓存。
 
@@ -84,7 +84,7 @@ modify_date: 2017-07-07 18:33:00 +08:00
 
 比如优酷手机APP，在我的 -> 我的缓存 菜单里，可以看到所有下载到手机上的缓存（视频）信息。
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180219001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180219001.png)
 
 为什么会有这个选项呢？其实就是我们可以提前将视频下载到手机上，这样当我们要看视频的时候，就不需要连接互联网，直接观看本地视频就可以了。
 
@@ -94,7 +94,7 @@ modify_date: 2017-07-07 18:33:00 +08:00
 
 这背后的原因就是浏览器在第一次打开页面的时候，会将页面信息保存到缓存文件中，当用户第二次请求同一个页面地址时，浏览器会通过一个e-tag的标签询问后端服务器，页面信息是否有变化？如果有变化，则重新获取页面信息，如果没有变化，则直接取本地的缓存。
 
-![liuchengtu1](http://ot6uqhsry.bkt.clouddn.com/liuchengtu1.png)
+![liuchengtu1](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/liuchengtu1.png)
 
 ### 网络缓存
 
@@ -108,8 +108,8 @@ modify_date: 2017-07-07 18:33:00 +08:00
 
 网络缓存就是保存在这些代理服务器上的缓存，而代理服务器又分为正向代理和反向代理两种，因此网络缓存也就分为正向代理缓存和反向代理缓存。
 
-![zhengxiangproxy](http://ot6uqhsry.bkt.clouddn.com/zhengxiangproxy.png)
-![fanxiangproxy](http://ot6uqhsry.bkt.clouddn.com/fanxiangproxy.png)
+![zhengxiangproxy](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/zhengxiangproxy.png)
+![fanxiangproxy](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/fanxiangproxy.png)
 
 不管是哪一种缓存，它们的工作原理都是相似的，就是将服务端返回给客户端的数据保存在代理服务器上，同时记录下客户端请求参数、缓存有效时间等关键信息，当客户端发送同样的请求时，代理服务器判断是到服务端重新拉取数据，还是直接返回本地缓存。
 

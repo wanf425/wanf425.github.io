@@ -42,15 +42,15 @@ MetaMask是一款在谷歌浏览器上使用的以太坊钱包，该钱包不需
 2. 输入MetaMask扩展程序ID：nkbihfbeogaeaoehlefnkodbefgpgknn。
 3. 点击“Download extension”按钮。
 
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午9.40.02.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午9.40.02.png)
 
 4. 文件下载完成后，在浏览器地址栏输入"chrome://extensions/"，进入扩展程序管理窗口。
 5. 将下载到的文件MetaMask_xxx.crx（xxx是最近的版本号）拖拽到管理窗口。
 6. 点击"添加扩展程序"按钮。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.40.10.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.40.10.png)
 
    添加成功后，可以在扩展程序管理窗口看到新增的MetaMask插件，同时在插件快捷栏中看到一个狐狸头像。
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.01.59.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.01.59.png)
 
 ### 第三步，创建钱包和账户
 
@@ -60,17 +60,17 @@ MetaMask是一款在谷歌浏览器上使用的以太坊钱包，该钱包不需
 2. 点击"Accept"按钮，点击后按钮变灰。
 3. 拖动中间的文字到最底部。
 4. "Accept"按钮重新变亮，再次点击按钮。
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.13.18.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.13.18.png)
 
 5. 输入钱包密码，点击“create”按钮。
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.30.57.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.30.57.png)
 
 
 6. 保存助记词。
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.33.50.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.33.50.png)
 
 创建成功后可以看到下面的页面，系统已经为我们创建了Account 1账户。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.42.42.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.42.42.png)
 
 ### 第四步，发行代币
 
@@ -81,25 +81,25 @@ MetaMask是一款在谷歌浏览器上使用的以太坊钱包，该钱包不需
 具体步骤：
 
 1. 切换到测试网（Reposten Test NetWork）。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.47.00.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.47.00.png)
 
 2. 申请测试用的以太坊。点击“BUY”按钮，接着点击“REPOSTEN TEST FAUCET”按钮，自动跳转到 https://faucet.metamask.io/ 页面。
-  ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.56.13.png)
+  ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.56.13.png)
 
 3. 点击“request 1 ether from fauet”按钮，耐心等待1分钟。如果想要更多的以太坊，可以多点几次。
-  ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午10.57.30.png)
+  ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午10.57.30.png)
 
 4. 查看账户信息，到账1个以太坊。
-   ![屏幕快照 2018-06-10 下午11.04.14](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午11.04.14.png)
+   ![屏幕快照 2018-06-10 下午11.04.14](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午11.04.14.png)
 
 5. 打开网址 http://tokenfactory.surge.sh/#/factory 创建代币。输入代币信息后点击"Create Token"按钮。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午11.16.55.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午11.16.55.png)
 
 6. 浏览器自动弹出交易确认页面，点击"SUBMIT"按钮。
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午11.16.45.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午11.16.45.png)
 
 7. 提交成功后，浏览器会自动跳转到新页面，并显示代币信息。在MetaMask添加对应的地址，即可查看代币余额。
-   ![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-06-10 下午11.31.34.png)
+   ![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-06-10 下午11.31.34.png)
 
 至此整个过程顺利完成，怎么样，是不是觉得在以太坊上发行代币特别简单呢？
 

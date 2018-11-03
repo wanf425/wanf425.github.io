@@ -35,10 +35,10 @@ p从头节点开始，遍历n个节点，然后q从头节点开始，与p一起�
 为了方便理解，我画了下面两张示意图。
 
 第一步：
-![](http://ot6uqhsry.bkt.clouddn.com/20181020001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20181020001.png)
 
 第二步：
-![](http://ot6uqhsry.bkt.clouddn.com/20181020003.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20181020003.png)
 
 ### 代码
 

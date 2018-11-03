@@ -21,7 +21,7 @@ docker pull eosio/eos
 ## nodeos、keosd与cleos的关系
 
 先来了解整体架构，下图展示了nodeos、keosd与cleos之间的关系。
-![屏幕快照 2018-04-24 下午8.43.08](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-24 下午8.43.08.png)
+![屏幕快照 2018-04-24 下午8.43.08](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-24 下午8.43.08.png)
 
 图中有几个关键信息：
 1. nodeos就是我们常说的节点，用来管理账号，上传数据到区块链。
@@ -48,7 +48,7 @@ docker run --name nodeos -p 8888:8888 -p 9876:9876 -t eosio/eos /opt/eosio/bin/n
 3. 启动容器时执行 /opt/eosio/bin/nodeosd.sh 脚本，通过此脚本运行nodeos节点。
 
 节点启动后，我们可以看到下面的信息，节点正在生成区块数据。
-![屏幕快照 2018-04-24 下午8.54.47](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-24 下午8.54.47.png)
+![屏幕快照 2018-04-24 下午8.54.47](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-24 下午8.54.47.png)
 
 使用下面的命令进入nodeos容器，并找到nodeosd.sh文件所在的文件目录。
 
@@ -58,7 +58,7 @@ cd /opt/eosio/bin/
 ls
 ```
 
-![屏幕快照 2018-04-24 下午8.58.18](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-24 下午8.58.18.png)
+![屏幕快照 2018-04-24 下午8.58.18](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-24 下午8.58.18.png)
 
 可以看到在这个目录下，除了nodeos.sh，还有nodeos、keosd、cleos，这说明在eosio/eos镜像中已经包含了这三个组件的完整信息，有兴趣的同学可以继续深入了解，我在这里就不展开介绍了。
 
@@ -85,7 +85,7 @@ docker run --name keosd -t eosio/eos /opt/eosio/bin/keosd arg1 arg2
 2.使用/opt/eosio/bin/keosd 启动keosd客户端
 
 启动信息如下
-![](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-25 下午7.47.34.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-25 下午7.47.34.png)
 
 使用下面的命令进入keosd容器
 
@@ -103,7 +103,7 @@ cleos是用户与keosd/nodeos交互的命令行工具。
 
 在nodeos或者keosd中，使用 ```cleos -h ```命令，可以查看cleos的帮助信息。
 
-![屏幕快照 2018-04-25 下午7.53.40](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-04-25 下午7.53.40.png)
+![屏幕快照 2018-04-25 下午7.53.40](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-04-25 下午7.53.40.png)
 
 cleos 目前支持 ```version``` ```create``` ```get``` ```set``` ```trnsfer``` ```net``` ```wallet``` ```sign``` ```push``` 9个子命令。
 

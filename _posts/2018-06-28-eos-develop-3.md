@@ -35,7 +35,7 @@ modify_date: 2017-06-28 18:13:00 +08:00
 账户权限由权限(permission)、权限所有者(account)、权重(weight)以及阈值(threshold)四个部分组成，例如，下图是账户wangtao的账户权限。
 
 *wangtao account authorities*
-![20180415001](http://ot6uqhsry.bkt.clouddn.com/20180415001.png)
+![20180415001](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180415001.png)
 
 结合这个例子，我们来一步步了解账户权限。
 

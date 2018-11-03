@@ -11,7 +11,7 @@ modify_date: 2018-10-14 16:51:00 +08:00
 ### 问题
 
 将两个有序单链表A和B，合并成C，如下图。
-![](http://ot6uqhsry.bkt.clouddn.com/20181014006.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20181014006.png)
 
 ### 解决思路
 

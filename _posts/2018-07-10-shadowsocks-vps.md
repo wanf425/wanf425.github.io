@@ -49,84 +49,84 @@ Shadowsocks的原理是境内设备与境外服务器通讯，境内想看什么
 ### 第一步，租境外服务器
 
 1.1 访问 https://bwh1.net， 国内俗称搬瓦工，一个可以租借廉价VPS服务器的网站。
-![](http://ot6uqhsry.bkt.clouddn.com/3.55.01.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/3.55.01.png)
 
 1.2 注册账号，点击右上角的Register。
 
-![](http://ot6uqhsry.bkt.clouddn.com/10535.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/10535.png)
 
 1.3 账号注册页面，注意此时要翻墻，不然验证码是显示不出来的。
 
-![](http://ot6uqhsry.bkt.clouddn.com/10623.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/10623.png)
 
 1.4 注册完成后，点击首页右上角的Client Area 登录
 
-![](http://ot6uqhsry.bkt.clouddn.com/11420.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/11420.png)
 
 1.5 选择可租用的服务器，点击Services -> Order New Services
 
-![](http://ot6uqhsry.bkt.clouddn.com/11724.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/11724.png)
 
 1.6 选择服务器，配置不用管，直接选最便宜的，点击Order Now 按钮。有的服务器在订购按钮那里显示out of stock，那就是没货了。
 
-![](http://ot6uqhsry.bkt.clouddn.com/12309.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/12309.png)
 
 1.7 选择付款信息。
 付款周期(月、季度、半年、年)。
 服务器位置，都是在国外，随便选一个就行。
 点击Add to Cart 按钮。 
 
-![](http://ot6uqhsry.bkt.clouddn.com/12952.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/12952.png)
 
 1.8 确认页面，点击Check out按钮
 
-![](http://ot6uqhsry.bkt.clouddn.com/14529.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/14529.png)
 
 1.9 支付页面，支付方式选择Alipay(支付宝)，点击Complete Order按钮。
 
-![](http://ot6uqhsry.bkt.clouddn.com/14057.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/14057.png)
 
 支付完成后，我们就拥有一个专属于自己的境外服务器了。
 
 ### 第二步，安装Shadowsocks
 2.1 还是在搬瓦工网站，点击右上角的 Client Area，然后找到Services -> My Services。
 
-![](http://ot6uqhsry.bkt.clouddn.com/15544.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/15544.png)
 
 2.2 点击 KiwiVM Control Panel 按钮，进入服务器管理页面。
 
-![](http://ot6uqhsry.bkt.clouddn.com/15758.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/15758.png)
 
 
 2.3 记下服务器IP地址(IP address)，后面会用到。点击Kill按钮，让服务器停止。
 
-![](http://ot6uqhsry.bkt.clouddn.com/24638.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/24638.png)
 
 2.4 在服务器上安装一个新系统。
 
-![](http://ot6uqhsry.bkt.clouddn.com/20741.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20741.png)
 
 2.5 耐心等待几分钟，安装完成之后会收到系统邮件(发送到注册时填的邮箱)。
 
-![](http://ot6uqhsry.bkt.clouddn.com/21107.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/21107.png)
 
 2.6 一键安装Shadowsocks服务端。
 
-![](http://ot6uqhsry.bkt.clouddn.com/21844.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/21844.png)
 
 2.7 安装完成后可以看到**服务器的加密算法**(server encryption)、**端口号**(server port)、**密码**(server password)，记下这些信息，客户端登录时会用到。
 
-![](http://ot6uqhsry.bkt.clouddn.com/23055.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/23055.png)
 
 2.8 按照网站提示安装客户端到本地电脑，或者登录https://sourceforge.net/projects/shadowsocksgui/files/dist/ 下载更全的版本。
 
-![](http://ot6uqhsry.bkt.clouddn.com/23439.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/23439.png)
 
 ### 第三步，翻墻
 
 3.1 以MAC OS为例，打开客户端 -> 服务器 -> 打开服务器设定
 
-![](http://ot6uqhsry.bkt.clouddn.com/24052.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/24052.png)
 
 3.2 输入服务器信息。
 **地址栏** 第一个文本框填入步骤2.3中的服务器IP地址(IP address)，第二个文本框填入步骤2.7的端口号(server port)
@@ -134,15 +134,15 @@ Shadowsocks的原理是境内设备与境外服务器通讯，境内想看什么
 **密码栏** 填入步骤2.7的密码
 设置完成后点击确定按钮。
 
-![](http://ot6uqhsry.bkt.clouddn.com/24326.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/24326.png)
 
 3.3 选择刚刚设置的服务器 -> 全局模式 -> 打开Shadowsocks。
 
-![](http://ot6uqhsry.bkt.clouddn.com/25547.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/25547.png)
 
 3.4 在浏览器中输入https://www.google.com， 如果能够正常打开页面，恭喜你，从此就可以自由的翻墻了。
 
-![](http://ot6uqhsry.bkt.clouddn.com/3.01.09.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/3.01.09.png)
 
 
 

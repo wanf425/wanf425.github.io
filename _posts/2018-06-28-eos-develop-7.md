@@ -38,23 +38,23 @@ cd eos
 
 编译过程中会根据当前系统环境，下载相关依赖，以MacOS为例，有如下依赖。
 
-![屏幕快照 2018-05-10 下午5.54.04](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-10 下午5.54.04.png)
+![屏幕快照 2018-05-10 下午5.54.04](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-10 下午5.54.04.png)
 
 如果这些依赖不存在，会自动下载并且安装，编译成功后会显示下面的内容。
-![屏幕快照 2018-05-10 下午6.36.48](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-10 下午6.36.48.png)
+![屏幕快照 2018-05-10 下午6.36.48](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-10 下午6.36.48.png)
 
 
 ## 导入EOS源码到CLion
 
 启动CLion，选择```Import Project from Sources```导入eos目录中的内容。
-![屏幕快照 2018-05-10 下午6.12.00](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-10 下午6.12.00.png)
+![屏幕快照 2018-05-10 下午6.12.00](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-10 下午6.12.00.png)
 
 导入时，会提示eos目录下已有CMakeList.txt文件，点击
 ```Open Project```按钮。
-![屏幕快照 2018-05-10 下午6.20.25](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-10 下午6.20.25.png)
+![屏幕快照 2018-05-10 下午6.20.25](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-10 下午6.20.25.png)
 
 导入后，CLion需要根据CmakeLists.txt文件编译整个项目，在CMake窗口会显示当前的编译进度，如果编译完成后，能够如下图显示[Finished]并且没有报任何错误，那么恭喜你导入成功，接下来就可以愉快的阅读源码了。
-![屏幕快照 2018-05-10 下午8.55.56](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-10 下午8.55.56.png)
+![屏幕快照 2018-05-10 下午8.55.56](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-10 下午8.55.56.png)
 
 编译失败也没有关系，这是正常情况，基本上第一次导入时都会遇到各种各样的问题。
 
@@ -105,7 +105,7 @@ brew install boost
 ```
 
 进入CLion，重新编译项目。在项目名称上右键，选择“Reload CMake Project”。
-![屏幕快照 2018-05-14 下午8.17.15](http://ot6uqhsry.bkt.clouddn.com/屏幕快照 2018-05-14 下午8.17.15.png)
+![屏幕快照 2018-05-14 下午8.17.15](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/屏幕快照 2018-05-14 下午8.17.15.png)
 
 
 ### 3. Could not find a package configuration file provided by "LLVM".
@@ -129,7 +129,7 @@ brew info llvm
 ```
 
 如果已经正确安装，打开CLion的设置页面（command + ,），找到cmake的环境配置。
-![2](http://ot6uqhsry.bkt.clouddn.com/2.png)
+![2](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/2.png)
 
 在Environment中指定LLVM_DIR，对应llvm的本地路径，例如：
 LLVM_DIR=/usr/local/Cellar/llvm/4.0.1/lib/cmake/llvm

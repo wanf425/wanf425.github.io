@@ -28,7 +28,7 @@ modify_date: 2017-07-07 17:45:00 +08:00
 
 我们系统服务端的架构如下图： 
 
-![](http://ot6uqhsry.bkt.clouddn.com/20180707001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/20180707001.png)
 
 接下来就要根据这个架构由前往后一层一层排查。
 
@@ -80,7 +80,7 @@ tcpdump -i eth0:0 -s0 host 1X.XXX.XXX.XX -w /tmp/out1.cap
 
 使用wireshark打开out1.cap文件，查找出现500错误的数据包，然后很意外的看到了下面的逻辑。
 
-![](http://ot6uqhsry.bkt.clouddn.com/image001.png)
+![](https://wangtao-1256981172.cos.ap-guangzhou.myqcloud.com/image001.png)
 
 通过这段代码我们发现，jetty对于请求数据的大小做了限制，超过200000 byte的时候就会报错，返回错误码500。
 
